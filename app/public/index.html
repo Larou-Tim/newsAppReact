@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>News Board</title>
+	<!-- Import Google Icon Font -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Import materialize.css -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Import jQuery before materialize.js -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/coffeeNews.jpg"></div>
+  </div>
+  <div class="section" id="news-section">
+    <div class="row container">
+	<div id="app"></div>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/catNews.jpg"></div>
+  </div>
+
+	<!-- This is where React will deploy the contents it generates -->
+
+
+	<!-- All of our JS code will be transpiled into this bundle.js file -->
+	<script src='bundle.js'></script>
+	<script src='logic.js'></script>
+
+</body>
+
+</html>
